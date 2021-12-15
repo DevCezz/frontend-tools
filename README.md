@@ -1,4 +1,6 @@
-# wtf-gulp-starter
+# Frontend resources
+
+**To start:**
 
 `npm install -g gulp-cli`
 
@@ -6,4 +8,4 @@
 
 `gulp`
 
-To publish your page using github pages use `npm run deploy`
+Live: https://devcezz.github.io/frontend-tools/
