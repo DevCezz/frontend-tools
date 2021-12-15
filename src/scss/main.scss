@@ -1,39 +1,40 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    color: #333;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 16px;
+  color: #333;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
 }
 
 .header {
-    background: #2B59C3;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  background: #2b59c3;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    &__item {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-    &__link {
-        color: #FFF;
-        display: block;
-        padding: .5rem;
-        text-decoration: none;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  &__item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__link {
+    color: #fff;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+  }
 }
 
 .hero {
-    padding: 80px 0;
+  padding: 80px 0;
 }
